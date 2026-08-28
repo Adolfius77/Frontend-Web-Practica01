@@ -6,7 +6,7 @@
 
 **Paso 3: Node y el compilador**
 * **¿Por qué node lo ejecuta si tiene un error de tipos?** 
-  Porque Node solo entiende JavaScript puro; las validaciones de TypeScript desaparecen a la hora de ejecutar el código
+  Porque Node solo entiende JavaScript puro, las validaciones de TypeScript desaparecen a la hora de ejecutar el código
 * **¿Cuál comando revisa y cuál ejecuta?** 
   El comando `npx tsc` es el que revisa los errores y `node` es el que ejecuta el programa
 
