@@ -21,6 +21,7 @@ function recibo(prestamo: Prestamo): string{
     }
 }
 
+//errores intencionales
 prestamo.ejemplar = "quince";
 prestamo.estaado = "perdido"
 const prestamoPrueba : Prestamo = {multa: 150, ejemplar: 14};
