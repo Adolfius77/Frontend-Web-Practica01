@@ -20,4 +20,9 @@ function recibo(prestamo: Prestamo): string{
         return `Recibo para ${prestamo.nombre}, estado: ${prestamo.estaado}, multa: ${calcularMulta(prestamo)}`;
     }
 }
+
+prestamo.ejemplar = "quince";
+prestamo.estaado = "perdido"
+const prestamoPrueba : Prestamo = {multa: 150, ejemplar: 14};
+
 console.log(recibo(prestamo));
